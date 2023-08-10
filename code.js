@@ -25,6 +25,9 @@ function sayHello(name) {
 
 
 
+function isFive(input) {
+    return input === 5;
+}
 
 
 
