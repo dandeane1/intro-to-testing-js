@@ -15,8 +15,10 @@ function helloWorld() {
 
 
 function sayHello(name) {
-    if (typeof name === 'string'){
-        return "Hello, " + name +"!"
+    if (typeof name === 'string' && name.trim() !== '') {
+        return "Hello, " + name + "!";
+    } else if (name === true){
+        return "Hello, World";
     }
     return ""
 }
